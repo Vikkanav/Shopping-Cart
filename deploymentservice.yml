@@ -20,11 +20,11 @@ spec:
             - containerPort: 8070
           resources:
             requests:
-              memory: "256Mi" # Request 256 MiB of memory
-              cpu: "250m"      # Request 250 millicores (0.25 cores) of CPU
+              memory: "1Gi" 
+              cpu: "1000m"      
             limits:
-              memory: "512Mi" # Limit to 512 MiB of memory
-              cpu: "500m"      # Limit to 500 millicores (0.5 cores) of CPU
+              memory: "1Gi" 
+              cpu: "1000m"      
               
 ---
 
